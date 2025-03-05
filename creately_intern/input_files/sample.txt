@@ -1,0 +1,29 @@
+
+
+ 	AWS Pricing according to compute, storage, data transfer.
+
+•	compute – charged per hour/second. varies by instances type
+•	storage – per GB
+•	data transfer – outbound has charge. inbound has no charge. per GB. transfer between other AWS services within the same AWS Region
+
+ 	How do you pay for AWS 
+
+1.	Pay for what you use 
+You need to pay only for what you used. In traditional model (on premises) you have spent over the infrastructures such as servers, storage, security system, etc. And also you have to spent over maintain infrastructures. All AWS services are on demand then do not required any licenses or agreements. You can quickly adopt to changes in your business and innovations.
+
+
+
+
+
+
+2.	Pay less when you reserve (Invest reserved instances)
+With reserved instances you can get save bill 75 percent,
+o	Largest discounts for all upfront reserved instances (AURI)
+o	Lower discount for partial upfront reserved instances (PURI)
+o	Smaller discount for no upfront payments reserved instances (NURI)
+For certain services like AmazonElastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS), you can invest in reserved capacity. When you buy reserved instances you received greater discounts. To maximize saving, you can pay all upfront.
+By using reserved instances, your organization can minimize risks, comfy with policies.
+
+3.	Pay less when you use more and AWS grows 
+When you use more volume, 
+you can save more per GB. (EX: Amazon S3, Amazon EBS, Amazon EFS). In addition data transfer in is always free.

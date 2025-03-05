@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Veggies Market</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Fresh Veggies Market</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="banner">
+        <h2>Fresh Organic Vegetables Delivered to Your Doorstep</h2>
+        <button onclick="scrollToSection('products')">Shop Now</button>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product" onclick="showPopup('Tomato', '$2/kg')">
+                <img src="tomato.jpg" alt="Tomato">
+                <p>Fresh Tomatoes - $2/kg</p>
+            </div>
+            <div class="product" onclick="showPopup('Carrot', '$3/kg')">
+                <img src="carrot.jpg" alt="Carrot">
+                <p>Organic Carrots - $3/kg</p>
+            </div>
+            <div class="product" onclick="showPopup('Broccoli', '$4/kg')">
+                <img src="broccoli.jpg" alt="Broccoli">
+                <p>Healthy Broccoli - $4/kg</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@veggiemarket.com</p>
+        <p>Phone: +123 456 7890</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Fresh Veggies Market. All rights reserved.</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-price"></p>
+        </div>
+    </div>
+</body>
+</html>
